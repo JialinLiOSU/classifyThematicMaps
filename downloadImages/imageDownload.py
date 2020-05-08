@@ -2,7 +2,7 @@
 # importing google_images_download module 
 from google_images_download import google_images_download  
 def downloadimages(query): 
-    arguments = {"keywords": query, "format": "jpg", "limit":5000, 
+    arguments = {"keywords": query, "format": "png", "limit":5000, 
                     "print_urls":True, "size": "medium",
                     "chromedriver":"C:\\Program Files (x86)\\Google\\Chrome\\chromedriver\\chromedriver.exe"} 
     try: 
@@ -28,7 +28,7 @@ def downloadimages(query):
 # creating object 
 response = google_images_download.googleimagesdownload()  
   
-search_queries = ['choropleth map']
+search_queries = ['Lambert cylindrical']
   
 # Driver Code 0
 for query in search_queries: 
