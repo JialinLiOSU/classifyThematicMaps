@@ -28,9 +28,9 @@ def downloadimages(query):
 # creating object 
 response = google_images_download.googleimagesdownload()  
   
-search_queries = ['choropleth map dataset']
+search_queries = ['choropleth map']
   
-# Driver Code 
+# Driver Code 0
 for query in search_queries: 
     downloadimages(query)  
     print()  
