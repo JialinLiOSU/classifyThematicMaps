@@ -28,7 +28,7 @@ def downloadimages(query):
 # creating object 
 response = google_images_download.googleimagesdownload()  
   
-search_queries = ['choropleth map']
+search_queries = ['Lambert cylindrical projection']
   
 # Driver Code 0
 for query in search_queries: 
